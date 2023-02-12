@@ -17,7 +17,7 @@ int main(){
 
 
     printf( "\nDigite um numero romano(Use letras maiusculas): ");
-    scanf( "\n%s", &s );
+    scanf( "%s", &s );
 
     printf( "%d", RomanToInt(s) );
     
