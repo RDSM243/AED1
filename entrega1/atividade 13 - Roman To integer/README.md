@@ -1,5 +1,5 @@
-Autor: Rodrigo dos Santos Mendes
- Email: MSDR1229@outlook.com 
+Autor: Rodrigo dos Santos Mendes <br />
+Email: MSDR1229@outlook.com 
 
 Descrição da atividade: O programa recebe numeros romanos em uma string e os retorna como um valor inteiro correspondente ao seu valor em numeros romanos.
 
