@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#define MAX_LIMIT 20
 
 /*
 ====================
@@ -12,9 +13,13 @@ int RomanToInt(char * s);
 
 int main(){
 
-    char s[] = "XVII"; 
+    char s[MAX_LIMIT]; 
 
-    printf("%d", RomanToInt(s));
+
+    printf( "\nDigite um numero romano(Use letras maiusculas): ");
+    scanf( "\n%s", &s );
+
+    printf( "%d", RomanToInt(s) );
     
     return 0;
 }
