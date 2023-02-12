@@ -1,10 +1,23 @@
+#include <stdio.h>
+#include <string.h>
+
 /*
 ====================
 RomanToInt
-
 Recebe numeros como uma string e os converte em numeros romanos
 ====================
 */
+
+int RomanToInt(char * s);
+
+int main(){
+
+    char s[] = "XVII"; 
+
+    printf("%d", RomanToInt(s));
+    
+    return 0;
+}
 
 int RomanToInt( char * s ) {
     
@@ -12,7 +25,7 @@ int RomanToInt( char * s ) {
     
     for ( int i = 0 ; i < len ; i++ ) {
         if ( s[i] == 'I' ) {
-            if( ( i+1 > len ) ) quant++;
+            if( i+1 >= len ) quant++;
             else {
                 if( s[ i+1 ] == 'V' || s[ i+1 ] == 'X' ) quant--;
                 else quant++;
@@ -20,7 +33,7 @@ int RomanToInt( char * s ) {
         }
         else if ( s[i] == 'V' ) quant += 5;
         else if ( s[i] == 'X' ) {
-            if ( ( i+1 > len ) ) quant += 10;
+            if ( i+1 >= len ) quant += 10;
             else {
                 if( s[i+1] == 'L' || s[i+1] == 'C' ) quant -= 10;
                 else quant += 10;
@@ -28,7 +41,7 @@ int RomanToInt( char * s ) {
         }
         else if( s[i] == 'L' ) quant += 50;
         else if( s[i] == 'C' ) {
-            if ( ( i+1 > len ) ) quant += 100;
+            if ( i+1 >= len ) quant += 100;
             else {
                 if ( s[i+1] == 'D' || s[i+1] == 'M' ) quant -= 100;
                 else quant += 100;
@@ -36,7 +49,8 @@ int RomanToInt( char * s ) {
         }
         else if ( s[i] == 'D' ) quant += 500;
         else if ( s[i] == 'M' ) quant += 1000;
+
     }
     
     return quant;
-}   
+}
