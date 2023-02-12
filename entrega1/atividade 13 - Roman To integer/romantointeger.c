@@ -15,7 +15,6 @@ int main(){
 
     char s[MAX_LIMIT]; 
 
-
     printf( "\nDigite um numero romano(Use letras maiusculas): ");
     scanf( "%s", &s );
 
