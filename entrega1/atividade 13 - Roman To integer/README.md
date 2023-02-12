@@ -5,7 +5,6 @@ Descrição da atividade: O programa recebe numeros romanos em uma string e os r
 
 Funciomento: Digite um valor numérico representado em numeros romanos e pressione enter o programa deverá retornar o valor digitado como um numero inteiro.
 
-Para compilar: gcc -g -o app romantointeger.c
-
+Para compilar: gcc -g -o app romantointeger.c <br />
 Para executar: ./app.exe
 
