@@ -2,16 +2,16 @@ Exercício: Você está subindo uma escada. São necessários n passos para cheg
            Cada vez você pode subir 1 ou 2 degraus. De quantas maneiras distintas você pode subir até o topo?
 
 Exemplo 1:
-    Entrada: n = 2
-    Saída: 2
+    <br />Entrada: n = 2
+    <br />Saída: 2
 Explicação: Existem duas maneiras de subir até o topo.
 
 1. 1 passo + 1 passo
 2. 2 passos
 
 Exemplo 2:
-    Entrada: n = 3
-    Saída: 3
+    <br />Entrada: n = 3
+    <br />Saída: 3
 Explicação: Existem três maneiras de subir até o topo.
 
 1. 1 passo + 1 passo + 1 passo
