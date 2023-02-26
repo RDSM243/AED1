@@ -14,8 +14,8 @@ int main(void){
         printf("\nDigite o numero de degraus da escada(de 0 a 45): ");
         scanf("%d", &degraus);
 
-        while(degraus < 0 || degraus > 45){
-            printf("\nNumero invalido ! Digite o numero de degraus da escada(de 0 a 45): ");
+        while(degraus < 1 || degraus > 45){
+            printf("\nNumero invalido ! Digite o numero de degraus da escada(de 1 a 45): ");
             scanf("%d", &degraus);
         }
 
