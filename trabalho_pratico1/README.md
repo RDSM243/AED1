@@ -21,3 +21,6 @@ Exercício: Você está subindo uma escada. São necessários n passos para cheg
            3. 2 passos + 1 passo
 
 Restrições: 1 <= n <= 45
+
+Para compilar: gcc -Wall -g -o app exercicio2.c
+Para executar: ./app.exe
