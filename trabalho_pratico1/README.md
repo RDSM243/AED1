@@ -3,7 +3,7 @@ Exercício: Você está subindo uma escada. São necessários n passos para cheg
 
            Exemplo 1:
                Entrada: n = 2
-               <br />Saída: 2
+               Saída: 2
 
            Explicação: Existem duas maneiras de subir até o topo.
 
