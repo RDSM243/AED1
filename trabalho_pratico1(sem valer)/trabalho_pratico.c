@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-//Link do repositório: https://github.com/RDSM243/AED1/tree/main/trabalho_pratico1
+//Link do repositório: https://github.com/RDSM243/AED1/tree/main/trabalho_pratico1(sem valer)
 
 //Você esta subindo uma escada. Cada vez voce pode subir 1 ou 2 degraus
 //De quantas maneiras diferentes você pode chegar no topo ?

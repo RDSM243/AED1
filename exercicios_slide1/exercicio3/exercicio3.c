@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 #define NOME_TAM 10
 
 void adiciona_pessoas(void **pBuffer, int *n_pessoas){

@@ -9,7 +9,7 @@ void add_name(char **names, int *chars_quant){
     int new_name_size;
 
     printf("\nDigite um nome(com 12 digitos): ");
-    scanf("%s", &name);
+    scanf_s("%s", &name);
 
     new_name_size = strlen(name);
 
@@ -32,7 +32,7 @@ void remove_name(char **names, int *chars_quant){
         char removed_name[NAME_SIZE];
 
         printf("\nDigite o nome a ser removido: ");
-        scanf("%s", &removed_name);
+        scanf_s("%s", &removed_name);
 
         char *remove_name_pos = strstr(*names, removed_name);
         
